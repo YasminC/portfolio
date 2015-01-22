@@ -12,10 +12,12 @@ body{
 header{
 	width:100%;
 	background-color:#fff;
+	height:130px;
 }
 .title{
 	width:47%;
 	padding:2%;
+	float:left;
 }
 h1{
 	font-size:1.7em;
@@ -29,7 +31,23 @@ h2{
 	margin:2% 0;
 }
 .social{
-	width:53%;
+	width:45%;
+	padding:2%;
+	float:right;
+}
+.social ul {
+	list-style: none;
+	margin:0;
+}                       
+.social li{
+	display:inline-block;
+	width:30%;
+	padding:5%;
+
+}
+.social li img{
+	max-width:44px;
+	width:100%;
 }
 .about, .keywords, .main, .achievements{
 	border-radius:30px;
@@ -89,6 +107,19 @@ h2{
 .achievements ul{
 	padding:2%;
 }
+
+@media screen and (min-width: 740px) {
+	.social ul{
+		padding:0;
+	}
+	.social li {
+		width:13%;
+	}
+	.social li img{
+		max-width:66px;
+	}
+}
+
 
 @media screen and (min-width: 973px) {
 
