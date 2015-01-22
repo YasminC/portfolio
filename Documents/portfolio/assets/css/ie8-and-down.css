@@ -1,0 +1,271 @@
+.lt-ie9 .header .logo {
+	width: 372px;
+	height: 344px;
+}
+
+.lt-ie9 .alumni .person {
+	width: 330px;
+	height: 295px;
+}
+
+.lt-ie9 #button_f, #button_t{
+	margin: 3em auto;
+}
+ .lt-ie9 #button_f{
+ 	border: 1.5px dashed #355194;
+ 	background:url('../img/facebook_logo.png') no-repeat 280px 11px;
+ 	background-size:27px;
+ }
+ .lt-ie9 #button_t{
+ 	border: 1.5px dashed #15afe1;
+ 	background:url('../img/twitter_logo.png') no-repeat 280px 11px;
+ 	background-size:27px;
+ }
+.lt-ie9 #button_t p{
+ 	color:#15afe1;
+ 	text-align: center;
+ 	padding-left: 0;
+ }
+ .lt-ie9 #button_f p{
+ 	color:#355194;
+ 	text-align:center;
+ 	padding-left:0;
+ }
+ .lt-ie9 .couple4{
+ 	margin-bottom:0;
+ }
+.lt-ie9 .header nav{
+	position:absolute;
+	top:7em;
+	left:0;
+	width: 100%;
+	padding-bottom:0;
+}	
+.lt-ie9 .header nav li{
+	width: 20%;
+	font-size:1.8em;
+	border-top:1.5px dashed #fff;
+	border-bottom:1.5px dashed #fff;
+}
+.lt-ie9 .header nav li:nth-child(1){
+	border-left:1.5px dashed #fff;
+	margin-left:6.5px;
+}
+.lt-ie9 .header nav li:nth-child(2){
+	padding-right: 9%;
+	text-align:left;
+}
+.lt-ie9 .header nav li:nth-child(2) p {
+	text-align:left;
+}
+.lt-ie9 .header nav li:nth-child(3){
+	padding-left: 8%;
+	text-align:right;
+}
+.lt-ie9 .header nav li:nth-child(3) p{
+	text-align:right;
+}
+.lt-ie9 .header nav li:nth-child(4){
+	border-right:1.5px dashed #fff;;
+}
+.lt-ie9 .margin{
+	width:auto;
+}
+.lt-ie9 .cream h1, .benefits h1{
+	padding:0 0 1em 0;
+}
+.lt-ie9 .benefits-ul, .awards-ul, .looking-ul{
+	width:100%;
+	max-width:1000px;
+}
+.lt-ie9 .benefits-ul li, .awards-ul li{
+	width:15.2%;
+	min-height:153px;
+	padding:0.5%;
+}
+.lt-ie9 .benefits-ul img, .awards-ul img, .looking-ul img{
+	width:auto;
+	padding:0 11%;
+
+}
+.lt-ie9 .looking-ul li{
+	width:24.2%;
+}
+.lt-ie9 .looking-ul{
+	max-width:794px;
+}
+.lt-ie9 .meet, .links, .people_div{
+	margin:2em auto;
+	max-width:1080px;
+	position:relative;
+}
+.lt-ie9 .meet h1{
+	margin:0 auto 1em auto;
+}
+.lt-ie9 .cut{
+	margin:3em auto 0 auto;
+}
+.lt-ie9 .alumni{
+	float:left;
+	width:36.4%;
+	padding:0 5.5% 0 8%;
+	border-right:2.74px dashed #008ac3;
+}
+.lt-ie9 .watch-video, .follow{
+	float:right;
+	width:37.4%;
+	padding:0 8% 0 4.42%;
+}
+.lt-ie9 .vid-desktop{
+	display:block;
+}
+.lt-ie9 .vid_cont{
+	width:120%;
+	margin:0 auto;
+	position:relative;
+}
+.lt-ie9 .vid_cont_about{
+	width:80%;
+	margin:0 auto;
+	position:relative;
+	max-width:813px;
+}
+.lt-ie9 #main_vid{
+	position:absolute;
+	z-index:101;
+	top:-19em;
+	display:none;
+	left:-74%;
+	width:131%;
+}
+.lt-ie9 #play{
+	display:block;
+	position:absolute;
+	top:40%;
+	left:40%;
+	width:100px;
+}
+.lt-ie9 .awards, .benefits{
+	padding:2em 4em;
+	max-width:1217px;
+	margin:0 auto;
+}
+.lt-ie9 .looking{
+	padding:2em 4em 0;
+}
+
+.lt-ie9 .like{
+	float:left;
+	width:36.4%;
+	padding:0 5.5% 0 8%;
+}
+.lt-ie9 .footer{
+	padding:3em 0 1em 4em;
+}
+.lt-ie9 .footer_width{
+	max-width:1060px;
+	margin:0 auto;
+}
+.lt-ie9 .footer ul{
+	margin:0;
+	float:left;
+	width:33%;
+}
+.lt-ie9 footer .first{
+	width:24%;
+}
+.lt-ie9 .footer ul li, .footer ul li p{
+	text-align:left;
+}
+.lt-ie9 .iris_logo{
+	float:left;
+	width:28%;
+}
+.lt-ie9 .social{
+	margin:0 7px;
+}
+.lt-ie9 #overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#fff;
+	opacity: 0.8;
+	z-index:100;
+	display:none;
+}
+/***APPLY***/
+
+/***ALUMNI***/
+.lt-ie9 .person1, .person2, .left_about, .right_about{
+	float:left;
+	width:49.8%;
+}
+.lt-ie9 .person1, .left_about{
+	border-right:3px dashed #008ac3;
+}
+.lt-ie9 .left_about p:nth-child(1){
+	margin-top:38px;
+}
+.lt-ie9 .left_about p:nth-child(2){
+	margin-bottom:38px;
+}
+.lt-ie9 .person_info, .image_top{
+	padding:0;
+	margin: 0 auto;
+	border-bottom:3px solid #008ac3;
+}
+.lt-ie9 .couple1{
+	margin-top:2em;
+}
+.lt-ie9 .couple1 .qa{
+	min-height:53.8em;
+}
+.lt-ie9 .couple2 .qa{
+	min-height:57.5em;
+}
+.lt-ie9 .couple3 .qa{
+	min-height:52.5em;
+}
+.lt-ie9 .couple4 .qa{
+	min-height:51em;
+}
+
+/***ABOUT***/
+.lt-ie9 .about_float{
+	max-width:1080px;
+}
+.lt-ie9 .right_about{
+	margin-bottom:0;
+}
+.lt-ie9 .image_top{
+	min-height:481px;
+}
+.lt-ie9 .image_top h1{
+	margin:45px auto;
+	max-width:246px;
+}
+.lt-ie9 .right_about h1{
+	margin-top:65px;
+}
+.lt-ie9 .information{
+	min-height:15em;
+}
+.lt-ie9 .about_vid{
+	padding:2% 10%;
+}
+/**FAQ**/
+.lt-ie9 .faq_left, .faq_right{
+	float:left;
+	width:42%;
+}
+.lt-ie9 .faq_left p, .faq_right p{
+	text-align: left;
+}
+.lt-ie9 .faq_left{
+	padding-right:16%;
+}
+
+}
+

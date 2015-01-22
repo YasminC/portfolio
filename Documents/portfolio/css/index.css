@@ -1,0 +1,148 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+.desktop{
+	display:none;
+}
+
+header{
+	width:100%;
+	background-color:#fff;
+}
+.title{
+	width:47%;
+	padding:2%;
+}
+h1{
+	font-size:1.7em;
+	margin:2% 0;
+}
+h2{
+	margin:2% 0;
+}
+.small{
+	font-size:0.9em;
+	margin:2% 0;
+}
+.social{
+	width:53%;
+}
+.about, .keywords, .main, .achievements{
+	border-radius:30px;
+	margin:5%;
+	padding:2%;
+	max-width:592px;
+	margin:5% auto;
+	border:2px solid black;
+}
+.about {
+	text-align: center;
+}
+.about img{
+	margin:0 auto;
+	display:block;
+	width:40%;
+	border-radius:25px;
+}
+.keywords{
+	text-align: center;
+}
+.keywords ul{
+	list-style: none;
+	padding:0;
+}
+.keywords li{
+	width:48%;
+	display:inline-block;
+	text-align:center;
+	font-size:1.5em;
+	border-radius:100px;
+	margin:1% 0;
+}
+.keywords p{
+	margin:5% 0;
+}
+
+.main{
+	overflow:none;
+}
+.logo{
+	background-color: #000;
+	border-radius:90px;
+	max-width:2.5em;
+	display:inline;
+	vertical-align: middle;
+	margin-right:2%;
+
+}
+.main h1{
+	vertical-align: middle;
+	display:inline;
+}
+.achievements h1{
+	text-align: center;
+}
+.achievements ul{
+	padding:2%;
+}
+
+@media screen and (min-width: 973px) {
+
+.about, .keywords, .main, .achievements{
+	margin:0 auto;
+	max-width:400000em;
+}
+
+.mobile{
+	display:none;
+}
+.desktop{
+	display:block;
+}
+ .keywords{
+ 	width: 24%;
+ 	float:right;
+ }
+
+.me{
+	width:31%;
+	float:left;
+}
+.achievements, .about{
+	width:90%;
+}
+.main{
+	width:35.5%;
+	float:left;
+}
+.achievements{
+	margin-top:3%;
+}
+.achievements ul{
+	padding:0;
+	margin-left:29px;
+}
+.achievements ul li p{
+	margin-left:-9px;
+}
+
+/*** CLEAR FIX ***/
+
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+  font-size: 0;
+  line-height: 0; 
+}
+
+.clear {
+  zoom: 1; 
+}
+
+
+}
